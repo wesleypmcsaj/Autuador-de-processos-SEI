@@ -859,7 +859,7 @@ def buscar_token(driver):
     logger.info("Código 2 - Iniciando busca do token por e-mail.")
 
     email_usuario = 'protocolosexpedientesajpmc@gmail.com'
-    senha_app = 'otby gbko eryn fgmz'
+    senha_app = ''
 
     imap = imapclient.IMAPClient('imap.gmail.com', ssl=True)
     imap.login(email_usuario, senha_app)
